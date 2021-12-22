@@ -1,0 +1,14 @@
+[05-May-2020 23:43:11 America/Mexico_City] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php:7) in /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php on line 8
+[05-May-2020 23:43:11 America/Mexico_City] PHP Fatal error:  Call to a member function select_db() on null in /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php on line 16
+[05-May-2020 23:43:44 America/Mexico_City] PHP Fatal error:  Call to a member function select_db() on null in /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php on line 13
+[05-May-2020 23:43:54 America/Mexico_City] PHP Fatal error:  Call to a member function select_db() on null in /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php on line 13
+[05-May-2020 23:44:14 America/Mexico_City] PHP Fatal error:  Call to a member function select_db() on null in /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php on line 13
+[05-May-2020 23:44:32 America/Mexico_City] PHP Fatal error:  Call to a member function select_db() on null in /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php on line 13
+[05-May-2020 23:45:47 America/Mexico_City] PHP Fatal error:  Call to a member function select_db() on null in /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php on line 13
+[05-May-2020 23:45:55 America/Mexico_City] PHP Fatal error:  Call to a member function select_db() on null in /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php on line 13
+[05-May-2020 23:52:07 America/Mexico_City] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php:32) in /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php on line 33
+[05-May-2020 23:52:44 America/Mexico_City] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php:32) in /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php on line 33
+[06-May-2020 04:57:42 UTC] PHP Parse error:  syntax error, unexpected '$nombre' (T_VARIABLE), expecting ',' or ';' in /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php on line 44
+[06-May-2020 17:51:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php on line 170
+[06-May-2020 17:51:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php on line 170
+[06-May-2020 17:52:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/gamse627/encuestagam.asesoresgam.com.mx/graficos.php on line 170

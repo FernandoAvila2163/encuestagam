@@ -1,0 +1,2 @@
+# gamEncuesta
+Repositorio actualizado

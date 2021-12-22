@@ -1,0 +1,237 @@
+.botones {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    width: 600px;
+    /*ANCHO*/
+    height: 400px;
+    /*ALTO*/
+    margin-left: -300px;
+    margin-top: -200px;
+    font-weight: 400px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    opacity: 0.6;
+    /* Opacidad 60% */
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Arial Narrow';
+    font-size: 28px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    color: #000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+div[class*=box] {
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 {
+    background-color: rgb(0, 112, 206)
+}
+
+.box-2 {
+    background-color: rgb(242, 115, 23)
+}
+
+.box-3 {
+    background-color: rgb(73, 78, 84)
+}
+
+.btn {
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+}
+
+/* 
+========================
+      BUTTON ONE
+========================
+*/
+
+.btn-one {
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.btn-one::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+}
+
+.btn-one:hover::before {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+}
+
+.btn-one::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 96.5%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transform: scale(1.2, 1.2);
+}
+
+.btn-one:hover::after {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+/* 
+========================
+      BUTTON TWO
+========================
+*/
+
+.btn-two {
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.btn-two::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+}
+
+.btn-two:hover::before {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+}
+
+.btn-two::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 96%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transform: scale(1.2, 1.2);
+}
+
+.btn-two:hover::after {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+/* 
+========================
+      BUTTON THREE
+========================
+*/
+
+.btn-three {
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+    width: 400px;
+}
+
+.btn-three::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+}
+
+.btn-three:hover::before {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+}
+
+.btn-three::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 95%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transform: scale(1.2, 1.2);
+}
+
+.btn-three:hover::after {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+/*
+========================
+        FOOTER
+========================
+*/
+
+footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.botonGraficos {
+    text-decoration: none;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #FFD27D;
+}

@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+p {
+    font-size: 22px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+/* BIENVENIDO */
+
+label {
+    font-size: 70px;
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+}
+
+/* BOTONES */
+
+.botones {
+    width: 100%;
+    text-align: center;
+}
+
+#separar {
+    padding: 3%;
+    display: inline-block;
+}
+
+.boton {
+    color: #fff !important;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+}
+
+.boton:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 1s ease;
+}
+
+.boton:hover:before {
+    width: 100%;
+}
+
+.boton3 {
+    color: #318aac !important;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid;
+    border-color: #318aac;
+    transition: all 1s ease;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.boton3:hover {
+    background: #318aac;
+    color: #fff !important;
+}
+
+/*MEDIA QUERIA PARA MOVILES - BIENVENIDA*/
+
+/* cambios css para modo vertical y horizontal */
+
+@media only screen and (min-width: 320px) and (max-width: 736px) {
+    html, body{
+        overflow: auto;
+    }
+    label {
+        font-size: 35px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .boton3{
+        font-size: 12px;
+    }
+}
